@@ -71,7 +71,7 @@
                     <tr>
                       <td><?= $element['name']?></td>
                       <td><?= $element['description']?></td>
-                      <td><?= $element['parking']?></td>
+                      <td><?= $element['parking'] ? 'true' : 'false'?></td>
                       <td><?= $element['vote']?></td>
                       <td><?= $element['distance_to_center']?></td>
                     </tr>
